@@ -41,4 +41,4 @@ Mobile-first design with seamless cross-device experience
 
 WCAG AA accessibility compliance
 
-Reusable component library (Figma )
+Reusable component library (Figma 
