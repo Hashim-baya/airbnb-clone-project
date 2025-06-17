@@ -32,6 +32,35 @@ Booking confirmation/email notification
 
 Frontend: Build responsive UI with React using modern hooks and state management
 
+# UI/UX Design Planning
+
+## Design Goals
+- Deliver an **intuitive** and **accessible** interface for all users.
+- Ensure **consistency** across devices (mobile-first approach).
+- Prioritize **speed** and **clarity** in the booking process.
+- Achieve **WCAG AA** accessibility compliance.
+
+## Key Features to Implement
+- Responsive property grids with lazy-loaded images.
+- Interactive filters (price, location, amenities).
+- Real-time booking availability calendar.
+- Minimalist checkout flow (3 steps max).
+
+## Primary Pages
+
+| Page                  | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| **Property Listing View** | Displays search results in a grid/card layout with filters and sorting options. |
+| **Listing Detailed View** | Shows high-res photos, amenities, host info, and booking calendar.          |
+| **Simple Checkout View**  | Streamlined form with booking summary, payment (simulated), and confirmation. |
+
+## Importance of User-Friendly Design
+A well-designed booking system:
+- **Reduces abandonment**: Clear UI = fewer frustrated users.  
+- **Builds trust**: Professional design increases perceived credibility.  
+- **Saves time**: Fewer steps = faster conversions.  
+- **Encourages repeat use**: Positive experiences drive loyalty.  
+
 Backend: Create RESTful APIs with proper error handling
 
 Database: Design efficient schema for properties, users, and bookings
