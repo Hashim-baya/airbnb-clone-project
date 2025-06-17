@@ -6,31 +6,33 @@ This project is a full-stack clone of AirBnB, replicating core functionality to 
 
 # **Project Goals**
 
-# **Core Functionality**
+## **Core Functionality**
 
-# **User Authentication**
+### **User Authentication**
+-Sign up/login with email or social accounts
+-Profile management (personal info, booking history)
 
-Sign up/login with email or social accounts
+### **Property Listings**
+-Browse properties with filters (price, location, amenities)
+-Search functionality with autocomplete
 
-Profile management (personal info, booking history)
+### **Booking System**
+-Real-time availability calendar
+-Secure payment processing (simulated)
+-Booking confirmation/email notification
 
-# **Property Listings**
+### **Technical Objectives**
+-Frontend: Build responsive UI with React using modern hooks and state management
+-Backend: Create RESTful APIs with proper error handling
+-Database: Design efficient schema for properties, users, and bookings
+-Performance: Optimize load times (lazy loading, image compression)
+-Testing: Achieve 80%+ test coverage with Jest/React Testing Library
 
-Browse properties with filters (price, location, amenities)
+### **UX/UI Targets**
+-Mobile-first design with seamless cross-device experience
+-WCAG AA accessibility compliance
+-Reusable component library (Figma )
 
-Search functionality with autocomplete
-
-# **Booking System**
-
-Real-time availability calendar
-
-Secure payment processing (simulated)
-
-Booking confirmation/email notification
-
-# **Technical Objectives**
-
-Frontend: Build responsive UI with React using modern hooks and state management
 
 # UI/UX Design Planning
 
@@ -60,19 +62,3 @@ A well-designed booking system:
 - **Builds trust**: Professional design increases perceived credibility.  
 - **Saves time**: Fewer steps = faster conversions.  
 - **Encourages repeat use**: Positive experiences drive loyalty.  
-
-Backend: Create RESTful APIs with proper error handling
-
-Database: Design efficient schema for properties, users, and bookings
-
-Performance: Optimize load times (lazy loading, image compression)
-
-Testing: Achieve 80%+ test coverage with Jest/React Testing Library
-
-# **UX/UI Targets**
-
-Mobile-first design with seamless cross-device experience
-
-WCAG AA accessibility compliance
-
-Reusable component library (Figma 
