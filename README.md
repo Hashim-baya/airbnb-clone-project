@@ -1,26 +1,26 @@
 # airbnb-clone-project
 
-**# Project Overview**
+# **Project Overview**
 
 This project is a full-stack clone of AirBnB, replicating core functionality to allow users to discover, view, and book properties.
 
-**# Project Goals**
+# **Project Goals**
 
-**## Core Functionality**
+# **Core Functionality**
 
-**### User Authentication**
+# **User Authentication**
 
 Sign up/login with email or social accounts
 
 Profile management (personal info, booking history)
 
-**# Property Listings**
+# **Property Listings**
 
 Browse properties with filters (price, location, amenities)
 
 Search functionality with autocomplete
 
-**# Booking System**
+# **Booking System**
 
 Real-time availability calendar
 
@@ -28,7 +28,7 @@ Secure payment processing (simulated)
 
 Booking confirmation/email notification
 
-**# Technical Objectives**
+# **Technical Objectives**
 
 Frontend: Build responsive UI with React using modern hooks and state management
 
@@ -40,7 +40,7 @@ Performance: Optimize load times (lazy loading, image compression)
 
 Testing: Achieve 80%+ test coverage with Jest/React Testing Library
 
-**# UX/UI Targets**
+# **UX/UI Targets**
 
 Mobile-first design with seamless cross-device experience
 
