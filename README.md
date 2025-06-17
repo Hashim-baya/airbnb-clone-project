@@ -61,4 +61,38 @@ A well-designed booking system:
 - **Reduces abandonment**: Clear UI = fewer frustrated users.  
 - **Builds trust**: Professional design increases perceived credibility.  
 - **Saves time**: Fewer steps = faster conversions.  
-- **Encourages repeat use**: Positive experiences drive loyalty.  
+- **Encourages repeat use**: Positive experiences drive loyalty.
+
+  # UI/UX Design Planning
+
+## Figma Design Specifications
+
+### Color Styles
+| Type           | Hex Code  | Usage                          |
+|----------------|----------|--------------------------------|
+| Primary        | `#FF5A5F` | Buttons, CTAs, Interactive Elements |
+| Secondary      | `#008489` | Secondary accents, Highlights  |
+| Background     | `#FFFFFF` | Page backgrounds               |
+| Text           | `#222222` | Primary text, Headings         |
+| Secondary Text | `#717171` | Captions, Inactive elements    |
+
+### Typography
+**Font Family:** Circular  
+
+| Usage          | Weight | Size   | Example Class       |
+|----------------|--------|--------|---------------------|
+| Headings       | 700 (Bold) | 24px-32px | `.heading-1`, `.heading-2` |
+| Primary Text   | 500 (Medium) | 16px   | `.body-text`        |
+| Secondary Text | 400 (Book) | 14px    | `.caption`, `.helper-text` |
+
+### Importance of Identifying Design Properties  
+1. **Consistency**  
+   - Ensures identical styling across all screens/devices.  
+2. **Developer Handoff**  
+   - Provides exact values (colors, fonts) for accurate implementation.  
+3. **Scalability**  
+   - Design tokens (like color variables) allow easy future updates.  
+4. **Accessibility**  
+   - Documented contrast ratios and font sizes meet WCAG standards.  
+5. **Team Alignment**  
+   - Serves as a single source of truth for designers/devs.  
