@@ -1,6 +1,6 @@
 # airbnb-clone-project
 
-#Project Overview
+**#Project Overview**
 
 This project is a full-stack clone of AirBnB, replicating core functionality to allow users to discover, view, and book properties.
 
