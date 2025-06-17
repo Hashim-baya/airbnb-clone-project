@@ -114,4 +114,88 @@ A well-designed booking system:
 1. **Sprint Planning**: PO presents prioritized backlog → Team estimates tasks  
 2. **Daily Syncs**: 15-min standups to surface blockers  
 3. **Design-Dev Handoff**: Figma → Frontend implementation with design review  
-4. **QA Integration**: Automated tests run on every PR via CI pipeline  
+4. **QA Integration**: Automated tests run on every PR via CI pipeline
+
+# UI Component Patterns
+
+## Navigation Components
+
+### Navbar
+- **Description**: Primary navigation bar visible across all pages
+- **Features**:
+  - Responsive design (collapses to hamburger menu on mobile)
+  - Integrated search functionality with autocomplete
+  - Dynamic authentication section (shows login/signup or user profile)
+  - Persistent across all pages with active route highlighting
+
+## Property Display Components
+
+### Property Card
+- **Description**: Compact listing preview for search results
+- **Features**:
+  - Image carousel with thumbnail navigation
+  - Price formatting with dynamic rate display
+  - Save/favorite functionality with visual feedback
+  - Rating display with star icons and review count
+
+### Property Detail Header
+- **Description**: Expanded view of individual listings
+- **Features**:
+  - Full-width image gallery with zoom capability
+  - Floating booking widget on desktop
+  - Responsive layout adjustments for mobile
+
+## Booking Components
+
+### Date Picker
+- **Description**: Interactive calendar for selecting dates
+- **Features**:
+  - Range selection with minimum stay requirements
+  - Visual indication of unavailable dates
+  - Mobile-optimized popup version
+
+### Booking Summary
+- **Description**: Order review before confirmation
+- **Features**:
+  - Dynamic price calculation with itemized fees
+  - Cancellation policy disclosure
+  - Responsive sticky positioning on mobile
+
+## UI Elements
+
+### Rating System
+- **Description**: Star-based evaluation component
+- **Features**:
+  - Interactive for submitting new reviews
+  - Display-only mode for showing averages
+  - Half-star precision where applicable
+
+### Filter Panel
+- **Description**: Search refinement controls
+- **Features**:
+  - Collapsible sections for different filter types
+  - Range sliders for price filtering
+  - Pill-style selections for amenities
+
+## Layout Components
+
+### Footer
+- **Description**: Site-wide footer section
+- **Features**:
+  - Multi-column link organization
+  - Language/currency selection
+  - Social media links and copyright info
+
+### Modal Container
+- **Description**: Reusable popup dialog
+- **Features**:
+  - Accessibility compliant with focus trapping
+  - Animated entrance/exit transitions
+  - Flexible content area with fixed header/footer
+
+## Design System Compliance
+All components follow established:
+- Color styles (primary, secondary, and neutral palettes)
+- Typography rules (font families, weights, and sizes)
+- Spacing and layout guidelines
+- Accessibility standards (WCAG 2.1 AA)
