@@ -63,7 +63,7 @@ A well-designed booking system:
 - **Saves time**: Fewer steps = faster conversions.  
 - **Encourages repeat use**: Positive experiences drive loyalty.
 
-  # UI/UX Design Planning
+# UI/UX Design Planning
 
 ## Figma Design Specifications
 
@@ -95,4 +95,23 @@ A well-designed booking system:
 4. **Accessibility**  
    - Documented contrast ratios and font sizes meet WCAG standards.  
 5. **Team Alignment**  
-   - Serves as a single source of truth for designers/devs.  
+   - Serves as a single source of truth for designers/devs.
+
+# Project Roles and Responsibilities
+
+| Role                | Key Responsibilities                                                                 | Contribution to Project Success                                                                 |
+|---------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Project Manager** | - Oversees timeline, budget, and resources<br>- Facilitates cross-team communication<br>- Manages risks and deliverables | Ensures project stays on track and aligns with business goals.                                  |
+| **Frontend Developers** | - Implement responsive UI components<br>- Integrate with backend APIs<br>- Optimize performance (lazy loading, SSR) | Delivers polished, user-friendly interfaces that meet design specs.                             |
+| **Backend Developers** | - Design and maintain APIs<br>- Implement business logic<br>- Database optimization<br>- Ensure security compliance | Provides reliable, scalable infrastructure for frontend functionality.                          |
+| **Designers (UI/UX)** | - Create wireframes/prototypes<br>- Define design system (Figma)<br>- Conduct user testing | Bridges user needs with technical feasibility through intuitive interfaces.                      |
+| **QA/Testers**      | - Write test cases<br>- Perform manual/automated testing<br>- Report and track bugs  | Guarantees product quality and prevents regression before releases.                             |
+| **DevOps Engineers** | - CI/CD pipeline setup<br>- Infrastructure as Code (IaS)<br>- Monitoring and logging | Enables seamless deployments and maintains system reliability.                                  |
+| **Product Owner**   | - Define user stories/requirements<br>- Prioritize backlog<br>- Validate features with stakeholders | Ensures the product delivers real user value and aligns with market needs.                      |
+| **Scrum Master**    | - Facilitate Agile ceremonies (standups, retrospectives)<br>- Remove blockers<br>- Coach team on Agile practices | Maintains productive workflow and continuous improvement through Agile methodologies.            |
+
+### Collaboration Flow
+1. **Sprint Planning**: PO presents prioritized backlog → Team estimates tasks  
+2. **Daily Syncs**: 15-min standups to surface blockers  
+3. **Design-Dev Handoff**: Figma → Frontend implementation with design review  
+4. **QA Integration**: Automated tests run on every PR via CI pipeline  
